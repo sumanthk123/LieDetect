@@ -1,0 +1,42 @@
+{
+  "name": "microexpression-detector",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "@react-native-voice/voice": "^3.2.4",
+    "@react-navigation/bottom-tabs": "^6.5.10",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.14",
+    "@react-navigation/stack": "^6.3.18",
+    "expo": "~49.0.13",
+    "expo-av": "^13.6.0",
+    "expo-camera": "~13.4.4",
+    "expo-dev-client": "~2.4.12",
+    "expo-face-detector": "~12.2.0",
+    "expo-status-bar": "~1.6.0",
+    "firebase": "^10.5.0",
+    "react": "18.2.0",
+    "react-native": "0.72.5",
+    "react-native-camera": "^4.2.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-ico-material-design": "^4.1.5",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0",
+    "react-native-svg": "^13.14.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-vision-camera": "^3.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "react-native-svg-transformer": "^1.1.0"
+  },
+  "private": true
+}
